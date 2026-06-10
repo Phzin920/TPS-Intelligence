@@ -42,7 +42,7 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-org/tps-intelligence-bot.git
+git clone https://github.com/Phzin920/tps-intelligence-bot.git
 cd tps-intelligence-bot
 
 # Crie um ambiente virtual (Python)
