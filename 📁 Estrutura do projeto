@@ -1,0 +1,15 @@
+tps-intelligence-bot/
+├── bot.py                 # Ponto de entrada principal
+├── requirements.txt       # Dependências
+├── .env.example           # Exemplo de variáveis
+├── config.yaml            # Configurações avançadas
+├── src/
+│   ├── collectors/        # Módulos de coleta de TPS (API, DB, etc.)
+│   ├── analytics/         # Cálculos, detecção de anomalias
+│   ├── alerts/            # Gerenciamento de notificações
+│   ├── storage/           # Redis + PostgreSQL
+│   ├── commands/          # Handlers para comandos do chat
+│   └── api/               # Servidor FastAPI
+├── tests/                 # Testes unitários
+├── docker-compose.yml     # Execução rápida com Redis+Postgres
+└── README.md
