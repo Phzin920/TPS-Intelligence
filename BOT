@@ -1,0 +1,28 @@
+# Bot
+BOT_TOKEN=seu_token_do_discord_ou_slack
+BOT_PREFIX=/tps
+
+# Fontes de dados (exemplo para API REST)
+TPS_SOURCE_TYPE=rest
+TPS_SOURCE_URL=https://api.seusistema.com/metrics/tps
+TPS_SOURCE_API_KEY=chave_aqui
+
+# Redis
+REDIS_HOST=localhost
+REDIS_PORT=6379
+
+# Banco histórico
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=tps_user
+DB_PASSWORD=senha
+DB_NAME=tps_intel
+
+# Alertas
+ALERT_WEBHOOK_URL=https://hooks.slack.com/services/...
+ALERT_EMAIL_SMTP=smtp.seuprovedor.com
+ALERT_EMAIL_TO=devops@exemplo.com
+
+# Limiares padrão (valores por segundo)
+TPS_WARNING_THRESHOLD=500
+TPS_CRITICAL_THRESHOLD=1000
